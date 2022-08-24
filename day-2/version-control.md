@@ -3,20 +3,28 @@ VERSION CONTROL
 GIT INIT
 git init --bare --> not hidden
 git init --quiet --> hidden
+[](./screenshot/GIT_INIT.JPG)
 
 GIT ADD
 git add . --> all files
 git add <filename> --> specific file
+[](./screenshot/GIT_ADD.JPG)
 
 GIT COMMIT
 git commit -a --> all
 git commit -m --> with message
+[](./screenshot/GIT_COMMIT.JPG)
 
 GIT FETCH
 Fetch metadata to local
 
 GIT PUSH
 Push piece or whole file into repository
+[](./screenshot/GIT_PUSH.JPG)
+
+GIT CHECKOUT
+move between branches
+[](./screenshot/GIT_CHECKOUT.JPG)
 
 GIT PULL
 Pull file(s) into local
