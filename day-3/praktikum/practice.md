@@ -1,29 +1,29 @@
 ----Create Table----
 
 Customers
-[](../screenshot/CT_Customers.JPG)
+![](../screenshot/CT_Customers.JPG)
 Products
-[](../screenshot/CT_Products.JPG)
+![](../screenshot/CT_Products.JPG)
 Orders
-[](../screenshot/CT_Orders.JPG)
+![](../screenshot/CT_Orders.JPG)
 
 ----Insert----
 
 Customers
-[](../screenshot/Insert_Customers.JPG)
+![](../screenshot/Insert_Customers.JPG)
 Products
-[](../screenshot/Insert_Products.JPG)
+![](../screenshot/Insert_Products.JPG)
 Orders
-[](../screenshot/Insert_Orders.JPG)
+![](../screenshot/Insert_Orders.JPG)
 
 ----Update----
 
-[](../screenshot/Update.JPG)
+![](../screenshot/Update.JPG)
 
 ----Delete----
 
-[](../screenshot/Delete.JPG)
+![](../screenshot/Delete.JPG)
 
 ----Join----
 
-[](../screenshot/Join.JPG)
+![](../screenshot/Join.JPG)
