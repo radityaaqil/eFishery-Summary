@@ -20,8 +20,11 @@ func main() {
 		return e.JSON(http.StatusOK, result)
 	})
 
-	e.GET("", customer.GetCustomer)
-	e.POST("", customer.CreateCustomer)
+	e.GET("/customers", customer.GetCustomer)
+	e.POST("/customers", customer.CreateCustomer)
+	e.GET("/customers/:id", customer.GetCustomerById)
+	e.PUT("/newcustomer/:id", customer.UpdateCustomerData)
+	e.DELETE("/deletecustomer/:id", customer.DeleteCustomer)
 
 	e.Logger.Fatal(e.Start("127.0.0.1:5000"))
 }
