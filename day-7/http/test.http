@@ -1,0 +1,29 @@
+GET http://localhost:5000/users HTTP/1.1
+
+###
+
+GET http://localhost:5000/user/3 HTTP/1.1
+
+###
+
+POST http://localhost:5000/newuser HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Saul",
+    "age":51
+}
+
+###
+
+PUT http://localhost:5000/updateuser/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Kevin",
+    "age":30
+}
+
+###
+
+DELETE http://localhost:5000/deleteuser/2 HTTP/1.1
