@@ -14,3 +14,5 @@ Modern Design --> How would you design a cloud-native app? What would your archi
 
 Codebase --> Single code base for each microservice, stored in its own repo. Tracked with version control, it can deploy to multiple environments (QA, Staging, Production)
 Dependencies --> Each microservice isolates and packages its own dependencies, embracing changes without impacting the entire system.
+Configuration --> Configuration information is moved out of the microservice and externalized through a configuration management tool outside of the code. The 
+Backing Service --> data stores, caches, message brokers
