@@ -25,7 +25,7 @@ func NewRepositoryUser(db *gorm.DB) *RepositoryUser {
 func (r *RepositoryUser) GetAllUsers() ([]model.User, error) {
 	var users []model.User
 
-	result := r.db.Find(&users)
+	result := r.db.Order("id asc").Find(&users)
 
 	err := result.Error
 
@@ -75,7 +75,7 @@ func (r *RepositoryUser) UpdateUser(id int, name string, age int) (model.User, e
 	user.Name = name
 	user.Age = age
 
-	result := r.db.Save(&user)
+	result := r.db.Updates(&user)
 
 	err := result.Error
 
