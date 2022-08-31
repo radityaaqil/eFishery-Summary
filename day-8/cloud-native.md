@@ -1,4 +1,9 @@
-CLOUD NATIVE --> A new computing paradigm
+# CLOUD NATIVE
+
+Cloud-native is a modern approach to building and running software applications that exploits the flexibility, scalability, and resilience of cloud computing. Cloud-native encompasses the various tools and techniques used by software developers today to build applications for the public cloud, as opposed to traditional architectures suited to an on-premises data center.
+
+## Cloud Native Roadmap
+
 1. Containerization
 2. CI/CD
 3. Orchestration
@@ -10,7 +15,9 @@ CLOUD NATIVE --> A new computing paradigm
 9. Container Runtime
 10. Software Distribution
 
-Modern Design --> How would you design a cloud-native app? What would your architecture do? --> The Twelve-Factor Application (Heroku)
+## Modern Design
+
+How would you design a cloud-native app? What would your architecture do? --> The Twelve-Factor Application
 
 1. Codebase --> Single code base for each microservice, stored in its own repo. Tracked with version control, it can deploy to multiple environments (QA, Staging, Production)
 2. Dependencies --> Each microservice isolates and packages its own dependencies, embracing changes without impacting the entire system.
@@ -25,9 +32,11 @@ Modern Design --> How would you design a cloud-native app? What would your archi
 11. Admin Process --> Run admin/management tasks as one off processes
 12. Disposability --> Easily disposed (fast startup and graceful shutdown)
 
-CONTAINERS --> an abstraction at the app layer that packages the code and the dependencies together
+## CONTAINERS
 
-Docker Registry
+An abstraction at the app layer that packages the code and the dependencies together
+
+## Docker Registry
 Common docker term
 - A registry is a service containing repositories of images that respond to the registry API.
 - A local registry is where are stored the images that you built or pulled.
