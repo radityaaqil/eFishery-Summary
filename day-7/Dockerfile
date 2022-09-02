@@ -1,14 +1,24 @@
-FROM golang
+#FROM golang
 
+#WORKDIR /app
+
+#COPY go.mod ./
+#COPY go.sum ./
+
+#RUN go mod download
+
+#COPY . ./
+
+#RUN go build -o /app
+
+#CMD ["/app"]
+
+FROM golang:alpine as builder
 WORKDIR /app
 
-COPY go.mod ./
-COPY go.sum ./
+COPY . .
 
 RUN go mod download
+RUN go build -o main .
 
-COPY . ./
-
-RUN go build -o /app
-
-CMD ["/app"]
+CMD ["./main"]
