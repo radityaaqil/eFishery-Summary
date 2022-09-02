@@ -5,7 +5,7 @@ services:
     image: postgres
     environment:
       - POSTGRES_PASSWORD="password"
-  app:
+  go:
     build: .
     ports:
       - "8000:5000"
