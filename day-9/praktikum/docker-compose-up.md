@@ -1,3 +1,3 @@
 ## docker-compose up -d
 
-![](../screenshot/Docker.JPG)
+![](../screenshot/docker-up-success.JPG)
