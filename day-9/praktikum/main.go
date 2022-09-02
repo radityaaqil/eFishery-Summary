@@ -1,8 +1,8 @@
 package main
 
 import (
-	"day7/connection"
-	"day7/router"
+	"day9/connection"
+	"day9/router"
 	"fmt"
 	"log"
 	"os"

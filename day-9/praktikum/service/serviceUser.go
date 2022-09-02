@@ -1,8 +1,8 @@
 package service
 
 import (
-	"day7/model"
-	"day7/repository"
+	"day9/model"
+	"day9/repository"
 	"log"
 )
 

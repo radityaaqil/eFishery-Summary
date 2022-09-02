@@ -1,7 +1,7 @@
 package connection
 
 import (
-	"day7/model"
+	"day9/model"
 	"fmt"
 	"log"
 

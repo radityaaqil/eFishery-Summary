@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"day7/model"
-	"day7/service"
+	"day9/model"
+	"day9/service"
 	"log"
 	"net/http"
 	"strconv"

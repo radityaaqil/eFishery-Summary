@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"day7/model"
+	"day9/model"
 	"log"
 
 	"gorm.io/gorm"

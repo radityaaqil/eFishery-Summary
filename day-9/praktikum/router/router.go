@@ -1,9 +1,9 @@
 package router
 
 import (
-	"day7/controller"
-	"day7/repository"
-	"day7/service"
+	"day9/controller"
+	"day9/repository"
+	"day9/service"
 
 	"github.com/labstack/echo/v4"
 	"gorm.io/gorm"
